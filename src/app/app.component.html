@@ -1,0 +1,34 @@
+<div class="container-fluid">
+  <div class="row justify-content-center">
+    <div class="col-12 text-center">
+      <h1>Casos de Covid-19 na região carbonífera</h1>
+    </div>
+    
+  </div>
+    <div class="row m-5">
+      <div class="col-xl-6 text-center">
+        <h2>Sobre</h2>
+        <p class="text-left">
+          Este site tem objeto de informar a quandida de pessoas infectadas na região carbonifera, 
+          são retirados de uma API que utiliza os dados do governo, mas sempre se cetifique-se com a 
+          prefreitura da sua cidade. Os dados são atuliazados todos os dias<br>
+          Autor: Pedro Henrique Silva Mietlicki
+        
+        </p>
+      </div>
+      <div class="col-xl-6 text-center">
+          <h2>Pessoas Infectadas</h2>
+          <p class="infectadas text-danger">{{totalPessoasInfectadas}}</p>
+          <p>A previsão de 10 dias é de {{previsao}} pessoas infectadas</p>
+      </div>
+      
+    </div>
+  <div class="row justify-content-center">
+    <div class="col-xl-10">
+      <canvas #dados>
+
+      </canvas>
+    </div>
+  </div>
+  
+</div>
